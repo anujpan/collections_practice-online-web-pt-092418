@@ -40,8 +40,9 @@ def sum_array(array)
 end
 
 def add_s(array)
-  array.each_with_index do |a|
+  array.each do |a|
     a += "s"
     array.push(a)
   end
-end   
+end
+
