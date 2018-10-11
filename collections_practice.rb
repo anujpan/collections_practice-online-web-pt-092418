@@ -44,7 +44,7 @@ def add_s(array)
     if index == 1
       item
     else
-      word = word
+      item
     end
   end
 end
